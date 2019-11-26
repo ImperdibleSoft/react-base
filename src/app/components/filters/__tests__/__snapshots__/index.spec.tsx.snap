@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filters should render closed filters 1`] = `
+<Wrapper
+  isOpen={false}
+>
+  <Form
+    buttons={Array []}
+    fields={
+      Array [
+        Object {
+          "id": "test",
+          "label": "Test filter",
+          "type": "text",
+        },
+      ]
+    }
+    form="filters"
+    handleSubmit={[Function]}
+    isFetching={false}
+  >
+    <Component />
+  </Form>
+</Wrapper>
+`;
+
+exports[`Filters should render open filters 1`] = `
+<Wrapper
+  isOpen={true}
+>
+  <Form
+    buttons={Array []}
+    fields={
+      Array [
+        Object {
+          "id": "test",
+          "label": "Test filter",
+          "type": "text",
+        },
+      ]
+    }
+    form="filters"
+    handleSubmit={[Function]}
+    isFetching={false}
+  >
+    <Component />
+  </Form>
+</Wrapper>
+`;

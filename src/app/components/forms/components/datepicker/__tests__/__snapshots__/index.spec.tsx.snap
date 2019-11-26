@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date should render a valid date field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="date-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "date-field",
+            "label": "Field label",
+            "type": "date",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <Input
+    defaultValue=""
+    id="date-field"
+    name="date-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="date"
+  />
+</Wrapper>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacer should render a small spacer without border 1`] = `
+<StyledSpacer
+  borderSize={0}
+  marginSize={15}
+/>
+`;
+
+exports[`Spacer should render an extra small spacer without border 1`] = `
+<StyledSpacer
+  borderSize={0}
+  marginSize={10}
+/>
+`;
+
+exports[`Spacer should render the default spacer 1`] = `
+<StyledSpacer
+  borderSize={1}
+  marginSize={20}
+/>
+`;

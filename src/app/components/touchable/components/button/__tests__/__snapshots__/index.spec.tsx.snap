@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button by colors and shapes should render a danger button 1`] = `
+<ButtonAsButton
+  buttonType="danger"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a disabled button 1`] = `
+<ButtonAsButton
+  buttonType="disabled"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a facebook button 1`] = `
+<ButtonAsButton
+  buttonType="facebook"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a google button 1`] = `
+<ButtonAsButton
+  buttonType="google"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a instagram button 1`] = `
+<ButtonAsButton
+  buttonType="instagram"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a linkedin button 1`] = `
+<ButtonAsButton
+  buttonType="linkedin"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a primary button 1`] = `
+<ButtonAsButton
+  buttonType="primary"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a success button 1`] = `
+<ButtonAsButton
+  buttonType="success"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a transparent button 1`] = `
+<ButtonAsButton
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  isTransparent={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a twitter button 1`] = `
+<ButtonAsButton
+  buttonType="twitter"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by colors and shapes should render a warning button 1`] = `
+<ButtonAsButton
+  buttonType="warning"
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by type should render a button 1`] = `
+<ButtonAsButton
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by type should render a button with a text-icon 1`] = `
+<ButtonAsButton
+  disabled={true}
+  id="button"
+  isDisabled={true}
+  onClick={[Function]}
+  type="button"
+>
+  <Content
+    options={
+      Object {
+        "icon": "send",
+        "iconLast": true,
+        "label": "Button",
+      }
+    }
+  />
+</ButtonAsButton>
+`;
+
+exports[`Button by type should render a link that looks like a button 1`] = `
+<LinkAsButton
+  id="button"
+  onClick={[Function]}
+>
+  <Link
+    to="/url"
+  >
+    <Content
+      options={
+        Object {
+          "icon": undefined,
+          "iconLast": undefined,
+          "label": "Link",
+        }
+      }
+    />
+  </Link>
+</LinkAsButton>
+`;
+
+exports[`Button by type should render a submit button 1`] = `
+<ButtonAsButton
+  id="button"
+  onClick={[Function]}
+  type="submit"
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Submit",
+      }
+    }
+  />
+</ButtonAsButton>
+`;

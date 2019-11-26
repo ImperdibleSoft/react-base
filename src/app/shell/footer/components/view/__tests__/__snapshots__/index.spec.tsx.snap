@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render a valid footer 1`] = `
+<Wrapper
+  fixedSidebar={false}
+>
+  <Content
+    maxWidth={1280}
+  >
+    <Text>
+      React Base
+       
+      v1
+       © is a registered property of 
+      ImperdibleSoft
+       ©
+       
+      2019
+    </Text>
+  </Content>
+</Wrapper>
+`;

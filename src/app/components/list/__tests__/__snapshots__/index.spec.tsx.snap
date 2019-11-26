@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render a valid list 1`] = `
+<List>
+  <Item>
+    List item
+  </Item>
+</List>
+`;

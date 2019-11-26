@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message should render the default message 1`] = `
+<Wrapper
+  backgroundColor="#d6e3ec"
+  color="#273238"
+>
+  <p>
+    Test
+  </p>
+</Wrapper>
+`;
+
+exports[`Message should render the error message 1`] = `
+<Wrapper
+  backgroundColor="#f3b5b4"
+  color="#640000"
+>
+  <p>
+    Test error
+  </p>
+</Wrapper>
+`;
+
+exports[`Message should render the success message 1`] = `
+<Wrapper
+  backgroundColor="#c1fdb5"
+  color="#006400"
+>
+  <p>
+    Test success
+  </p>
+</Wrapper>
+`;
+
+exports[`Message should render the warning message 1`] = `
+<Wrapper
+  backgroundColor="#fdfeb5"
+  color="#646400"
+>
+  <p>
+    Test warning
+  </p>
+</Wrapper>
+`;

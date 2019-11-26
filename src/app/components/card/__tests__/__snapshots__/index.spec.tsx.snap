@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly a populated card 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "card__Card-sc-1hrkoho-0",
+        "isStatic": false,
+        "rules": Array [
+          "background-color:",
+          [Function],
+          ";border-radius:4px;display:inline-block;margin:5px;padding:10px;text-align:left;transition:background-color 0.2s;vertical-align:top;width:calc(100% - 10px);",
+          "@media screen and (min-width: 720px)",
+          "{margin:10px;padding:20px;width:",
+          [Function],
+          ";}",
+        ],
+      },
+      "displayName": "Card",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "card__Card-sc-1hrkoho-0",
+      "target": "div",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <p>
+    test
+  </p>
+</StyledComponent>
+`;
+
+exports[`Card should render correctly an empty card 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "card__Card-sc-1hrkoho-0",
+        "isStatic": false,
+        "rules": Array [
+          "background-color:",
+          [Function],
+          ";border-radius:4px;display:inline-block;margin:5px;padding:10px;text-align:left;transition:background-color 0.2s;vertical-align:top;width:calc(100% - 10px);",
+          "@media screen and (min-width: 720px)",
+          "{margin:10px;padding:20px;width:",
+          [Function],
+          ";}",
+        ],
+      },
+      "displayName": "Card",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "card__Card-sc-1hrkoho-0",
+      "target": "div",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

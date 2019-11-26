@@ -1,0 +1,74 @@
+root: true
+parser: '@typescript-eslint/parser'
+extends: [
+  'prettier',
+  'plugin:react/recommended',
+  'plugin:@typescript-eslint/recommended'
+]
+parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
+  ecmaFeatures:
+    jsx: true
+
+settings:
+  react:
+    version: 'detect'
+
+env:
+  browser: false
+
+globals:
+  window: false
+  document: false
+  navigator: false
+
+plugins:
+    - import
+    - react
+    - class-property
+
+rules:
+  import/no-named-default: error
+  import/no-useless-path-segments: error
+  import/no-self-import: error
+  import/no-cycle: error
+
+  class-property/class-property-semicolon: error
+
+  react/display-name: error
+  react/no-unused-prop-types: error
+  react/no-did-update-set-state: error
+  react/prop-types: error
+  react/no-deprecated: error
+
+  "@typescript-eslint/indent": off
+  "@typescript-eslint/explicit-function-return-type": off
+  "@typescript-eslint/no-explicit-any": off
+  "@typescript-eslint/explicit-member-accessibility": off
+  "@typescript-eslint/no-var-requires": off
+  no-unused-vars: off
+  "@typescript-eslint/no-unused-vars": [
+    error,
+    {
+      ignoreRestSiblings: true
+    }
+  ]
+  "@typescript-eslint/ban-ts-ignore": off
+
+  no-param-reassign: error
+  no-console: error
+  no-restricted-imports: [
+    error,
+    {
+      patterns: [
+        '**/forms/form-checkbox/*',
+        '**/forms/form-date/*',
+        '**/forms/form-dropdown/*',
+        '**/forms/form-picture/*',
+        '**/forms/form-switch/*',
+        '**/forms/form-text/*',
+        '**/do-not-export/*'
+      ]
+    }
+  ]

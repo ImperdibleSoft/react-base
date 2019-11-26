@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch should render a valid switch field 1`] = `
+<Wrapper>
+  <Label
+    htmlFor="switch-field"
+  >
+    <HiddenInput
+      id="switch-field"
+      name="switch-field"
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+    <Description>
+      <CustomSwitch />
+      <Content
+        options={
+          Object {
+            "id": "switch-field",
+            "label": "Field label",
+            "type": "switch",
+          }
+        }
+      />
+    </Description>
+  </Label>
+</Wrapper>
+`;

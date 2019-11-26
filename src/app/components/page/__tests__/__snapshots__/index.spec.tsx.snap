@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page should render a page 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__Page-sc-2ndwjn-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin:0 auto;max-width:",
+          [Function],
+          ";min-height:calc(100vh - ",
+          "56",
+          "px - ",
+          "150",
+          "px);padding:10px;text-align:",
+          [Function],
+          ";z-index:",
+          "1",
+          ";",
+          "@media screen and (min-width: 720px)",
+          "{min-height:calc(100vh - ",
+          "56",
+          "px - ",
+          "170",
+          "px);padding:20px;}",
+        ],
+      },
+      "displayName": "Page",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "page__Page-sc-2ndwjn-0",
+      "target": "div",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
+
+exports[`Page should render a page with max-with 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__Page-sc-2ndwjn-0",
+        "isStatic": false,
+        "rules": Array [
+          "margin:0 auto;max-width:",
+          [Function],
+          ";min-height:calc(100vh - ",
+          "56",
+          "px - ",
+          "150",
+          "px);padding:10px;text-align:",
+          [Function],
+          ";z-index:",
+          "1",
+          ";",
+          "@media screen and (min-width: 720px)",
+          "{min-height:calc(100vh - ",
+          "56",
+          "px - ",
+          "170",
+          "px);padding:20px;}",
+        ],
+      },
+      "displayName": "Page",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "page__Page-sc-2ndwjn-0",
+      "target": "div",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  maxWidth={1024}
+/>
+`;
+
+exports[`PageH1 should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageH1-sc-2ndwjn-3",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+          "font-size:24px;font-weight:700;text-align:left;",
+        ],
+      },
+      "displayName": "PageH1",
+      "foldedComponentIds": Array [
+        "page__PageHeading-sc-2ndwjn-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "page__PageH1-sc-2ndwjn-3",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
+
+exports[`PageH2 should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageH2-sc-2ndwjn-4",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+          "font-size:22px;font-weight:400;text-align:left;",
+        ],
+      },
+      "displayName": "PageH2",
+      "foldedComponentIds": Array [
+        "page__PageHeading-sc-2ndwjn-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "page__PageH2-sc-2ndwjn-4",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
+
+exports[`PageH3 should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageH3-sc-2ndwjn-5",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+          "font-size:20px;font-weight:300;text-align:left;",
+        ],
+      },
+      "displayName": "PageH3",
+      "foldedComponentIds": Array [
+        "page__PageHeading-sc-2ndwjn-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "page__PageH3-sc-2ndwjn-5",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
+
+exports[`PageH4 should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageH4-sc-2ndwjn-6",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+          "font-size:18px;font-weight:300;text-align:left;",
+        ],
+      },
+      "displayName": "PageH4",
+      "foldedComponentIds": Array [
+        "page__PageHeading-sc-2ndwjn-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "page__PageH4-sc-2ndwjn-6",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
+
+exports[`PageHeading should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageHeading-sc-2ndwjn-1",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+        ],
+      },
+      "displayName": "PageHeading",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "page__PageHeading-sc-2ndwjn-1",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;
+
+exports[`PageTitle should render properly 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "page__PageTitle-sc-2ndwjn-2",
+        "isStatic": false,
+        "rules": Array [
+          "display:block;font-size:24px;font-weight:300;margin-bottom:10px;padding:10px 0;text-align:center;width:100%;",
+          "@media screen and (min-width: 720px)",
+          "{display:none;}",
+        ],
+      },
+      "displayName": "PageTitle",
+      "foldedComponentIds": Array [
+        "page__PageHeading-sc-2ndwjn-1",
+      ],
+      "render": [Function],
+      "styledComponentId": "page__PageTitle-sc-2ndwjn-2",
+      "target": "h1",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  Test
+</StyledComponent>
+`;

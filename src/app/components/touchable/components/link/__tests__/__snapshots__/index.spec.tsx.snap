@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render a button that looks like a link 1`] = `
+<ButtonAsLink
+  id="button"
+  onClick={[Function]}
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Link",
+      }
+    }
+  />
+</ButtonAsLink>
+`;
+
+exports[`Link should render a link 1`] = `
+<LinkAsLink>
+  <Link
+    id="button"
+    onClick={[Function]}
+    to={
+      Object {
+        "pathname": "/url",
+        "state": Object {
+          "from": "/",
+        },
+      }
+    }
+  >
+    <Content
+      options={
+        Object {
+          "icon": undefined,
+          "iconLast": undefined,
+          "label": "Link",
+        }
+      }
+    />
+  </Link>
+</LinkAsLink>
+`;
+
+exports[`Link should render a link with a text-icon 1`] = `
+<LinkAsLink>
+  <Link
+    id="button"
+    onClick={[Function]}
+    to={
+      Object {
+        "pathname": "/url",
+        "state": Object {
+          "from": "/",
+        },
+      }
+    }
+  >
+    <Content
+      options={
+        Object {
+          "icon": "send",
+          "iconLast": true,
+          "label": "Link",
+        }
+      }
+    />
+  </Link>
+</LinkAsLink>
+`;
+
+exports[`Link should render a react-based link 1`] = `
+<LinkAsLink>
+  <Link
+    id="button"
+    onClick={[Function]}
+    to={
+      Object {
+        "pathname": "/url",
+      }
+    }
+  >
+    <Content
+      options={
+        Object {
+          "icon": undefined,
+          "iconLast": undefined,
+          "label": "Link",
+        }
+      }
+    />
+  </Link>
+</LinkAsLink>
+`;
+
+exports[`Link should render an external link 1`] = `
+<LinkAsLink>
+  <a
+    href="/url"
+    id="button"
+    onClick={[Function]}
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <Content
+      options={
+        Object {
+          "icon": undefined,
+          "iconLast": undefined,
+          "label": "Link",
+        }
+      }
+    />
+  </a>
+</LinkAsLink>
+`;
+
+exports[`Link should render an invalid link 1`] = `
+<ButtonAsLink
+  id="button"
+  onClick={[Function]}
+>
+  <Content
+    options={
+      Object {
+        "icon": undefined,
+        "iconLast": undefined,
+        "label": "Link",
+      }
+    }
+  />
+</ButtonAsLink>
+`;

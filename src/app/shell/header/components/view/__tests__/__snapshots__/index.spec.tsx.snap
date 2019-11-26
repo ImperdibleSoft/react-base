@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render a header 1`] = `
+<Header>
+  <HeaderBar>
+    <Sidebar
+      handleClick={[Function]}
+      isOpen={false}
+    >
+      <ul />
+    </Sidebar>
+    <LogoLink
+      onClick={[Function]}
+      to="/"
+    >
+      <Logo
+        src="custom-logo.png"
+      />
+    </LogoLink>
+  </HeaderBar>
+  <HeaderSpacer />
+</Header>
+`;

@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render a valid email field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="email-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "email-field",
+            "label": "Field label",
+            "type": "email",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <Input
+    defaultValue=""
+    id="email-field"
+    name="email-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="email"
+  />
+</Wrapper>
+`;
+
+exports[`Text should render a valid number field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="number-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "number-field",
+            "label": "Field label",
+            "type": "number",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <Input
+    defaultValue=""
+    id="number-field"
+    name="number-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="number"
+  />
+</Wrapper>
+`;
+
+exports[`Text should render a valid password field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="password-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "password-field",
+            "label": "Field label",
+            "type": "password",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <Input
+    defaultValue=""
+    id="password-field"
+    name="password-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="password"
+  />
+</Wrapper>
+`;
+
+exports[`Text should render a valid text field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="text-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "text-field",
+            "label": "Field label",
+            "type": "text",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <Input
+    defaultValue=""
+    id="text-field"
+    name="text-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</Wrapper>
+`;
+
+exports[`Text should render a valid textarea field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="text-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "text-field",
+            "label": "Field label",
+            "type": "textarea",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <TextareaAutosize
+    defaultValue=""
+    id="text-field"
+    inputRef={[Function]}
+    name="text-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onHeightChange={[Function]}
+    style={
+      Object {
+        "appearance": "none",
+        "backgroundColor": "#fff",
+        "border": "none",
+        "borderBottom": "1px solid #779ec1",
+        "borderRadius": "4px",
+        "borderTop": "1px solid transparent",
+        "color": "inherit",
+        "cursor": "inherit",
+        "display": "block",
+        "fontFamily": "inherit",
+        "fontSize": "inherit",
+        "lineHeight": "1.3em",
+        "minHeight": "150px",
+        "padding": "5px 10px",
+        "resize": "vertical",
+        "transition": "background-color 0.2s, border: 0.2s, color 0.2s",
+        "userSelect": "initial",
+        "width": "100%",
+      }
+    }
+    useCacheForDOMMeasurements={false}
+  />
+</Wrapper>
+`;

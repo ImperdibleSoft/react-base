@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render the complete set of table components 1`] = `
+<StyledComponent
+  forwardedComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "styles__Table-sc-1qcs71b-0",
+        "isStatic": false,
+        "rules": Array [
+          "border-collapse:collapse;margin-bottom:10px;width:100%;",
+        ],
+      },
+      "displayName": "Table",
+      "foldedComponentIds": Array [],
+      "render": [Function],
+      "styledComponentId": "styles__Table-sc-1qcs71b-0",
+      "target": "table",
+      "toString": [Function],
+      "usesTheme": false,
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+>
+  <THead>
+    <Tr>
+      <Th>
+        Title
+      </Th>
+    </Tr>
+  </THead>
+  <TBody>
+    <Tr>
+      <Td>
+        Row 1
+      </Td>
+    </Tr>
+    <Tr>
+      <Td>
+        Row 2
+      </Td>
+    </Tr>
+  </TBody>
+</StyledComponent>
+`;

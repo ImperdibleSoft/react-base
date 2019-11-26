@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item should render a valid external link 1`] = `
+<item__ExternalItem
+  href=""
+  rel="noopener noreferer"
+  target="_blank"
+>
+  Test link
+</item__ExternalItem>
+`;
+
+exports[`Item should render a valid local link 1`] = `
+<item__LocalItem
+  to=""
+>
+  Test link
+</item__LocalItem>
+`;

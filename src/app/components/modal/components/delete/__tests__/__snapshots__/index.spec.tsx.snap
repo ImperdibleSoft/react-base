@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteModal should render a closed modal 1`] = `
+<Modal
+  handleClose={[Function]}
+  isOpen={false}
+>
+  <Header>
+    <h5>
+      Delete
+    </h5>
+  </Header>
+  <Body>
+    <p>
+      Test children
+    </p>
+  </Body>
+  <Body>
+    <p>
+      This action 
+      <b>
+        cannot be undone
+      </b>
+      .
+    </p>
+  </Body>
+  <Footer>
+    <Buttons
+      options={
+        Array [
+          Object {
+            "buttonType": "danger",
+            "icon": "trash",
+            "id": "confirm-delete",
+            "isDisabled": false,
+            "label": "Delete",
+            "onClick": [Function],
+            "type": "button",
+          },
+          Object {
+            "icon": "times",
+            "id": "cancel-delete",
+            "isDisabled": false,
+            "label": "Cancel",
+            "onClick": [Function],
+            "type": "button",
+          },
+        ]
+      }
+    />
+  </Footer>
+</Modal>
+`;
+
+exports[`DeleteModal should render an empty open modal 1`] = `
+<Modal
+  handleClose={[Function]}
+  isOpen={true}
+>
+  <Header>
+    <h5>
+      Delete
+    </h5>
+  </Header>
+  <Body>
+    <p>
+      Are you sure you want to delete this?
+    </p>
+  </Body>
+  <Body>
+    <p>
+      This action 
+      <b>
+        cannot be undone
+      </b>
+      .
+    </p>
+  </Body>
+  <Footer>
+    <Buttons
+      options={
+        Array [
+          Object {
+            "buttonType": "danger",
+            "icon": "trash",
+            "id": "confirm-delete",
+            "isDisabled": false,
+            "label": "Delete",
+            "onClick": [Function],
+            "type": "button",
+          },
+          Object {
+            "icon": "times",
+            "id": "cancel-delete",
+            "isDisabled": false,
+            "label": "Cancel",
+            "onClick": [Function],
+            "type": "button",
+          },
+        ]
+      }
+    />
+  </Footer>
+</Modal>
+`;
+
+exports[`DeleteModal should render an open fetching modal 1`] = `
+<Modal
+  handleClose={[Function]}
+  isOpen={true}
+>
+  <Header>
+    <h5>
+      Delete
+    </h5>
+  </Header>
+  <Body>
+    <p>
+      Test children
+    </p>
+  </Body>
+  <Body>
+    <p>
+      This action 
+      <b>
+        cannot be undone
+      </b>
+      .
+    </p>
+  </Body>
+  <Footer>
+    <Buttons
+      options={
+        Array [
+          Object {
+            "buttonType": "danger",
+            "icon": "trash",
+            "id": "confirm-delete",
+            "isDisabled": true,
+            "label": "Delete",
+            "onClick": [Function],
+            "type": "button",
+          },
+          Object {
+            "icon": "times",
+            "id": "cancel-delete",
+            "isDisabled": true,
+            "label": "Cancel",
+            "onClick": [Function],
+            "type": "button",
+          },
+        ]
+      }
+    />
+  </Footer>
+</Modal>
+`;
+
+exports[`DeleteModal should render an open modal 1`] = `
+<Modal
+  handleClose={[Function]}
+  isOpen={true}
+>
+  <Header>
+    <h5>
+      Delete
+    </h5>
+  </Header>
+  <Body>
+    <p>
+      Test children
+    </p>
+  </Body>
+  <Body>
+    <p>
+      This action 
+      <b>
+        cannot be undone
+      </b>
+      .
+    </p>
+  </Body>
+  <Footer>
+    <Buttons
+      options={
+        Array [
+          Object {
+            "buttonType": "danger",
+            "icon": "trash",
+            "id": "confirm-delete",
+            "isDisabled": false,
+            "label": "Delete",
+            "onClick": [Function],
+            "type": "button",
+          },
+          Object {
+            "icon": "times",
+            "id": "cancel-delete",
+            "isDisabled": false,
+            "label": "Cancel",
+            "onClick": [Function],
+            "type": "button",
+          },
+        ]
+      }
+    />
+  </Footer>
+</Modal>
+`;

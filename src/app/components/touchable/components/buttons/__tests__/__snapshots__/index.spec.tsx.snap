@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons should render 2 buttons 1`] = `
+<Buttons
+  align="right"
+>
+  <Button
+    key="button-1"
+    options={
+      Object {
+        "id": "button-1",
+        "isDisabled": undefined,
+        "label": "Button",
+        "type": "button",
+      }
+    }
+  />
+  <Button
+    key="button-2"
+    options={
+      Object {
+        "id": "button-2",
+        "isDisabled": undefined,
+        "label": "Link",
+        "to": "/url",
+        "type": "button",
+      }
+    }
+  />
+</Buttons>
+`;
+
+exports[`Buttons should render 3 buttons (aligned to left) 1`] = `
+<Buttons
+  align="left"
+>
+  <Button
+    key="button-1"
+    options={
+      Object {
+        "id": "button-1",
+        "isDisabled": undefined,
+        "label": "Button",
+        "type": "button",
+      }
+    }
+  />
+  <Button
+    key="button-2"
+    options={
+      Object {
+        "id": "button-2",
+        "isDisabled": undefined,
+        "label": "Link",
+        "to": "/url",
+        "type": "button",
+      }
+    }
+  />
+  <Button
+    key="button-3"
+    options={
+      Object {
+        "id": "button-3",
+        "isDisabled": undefined,
+        "label": "Button",
+        "onClick": [Function],
+        "type": "button",
+      }
+    }
+  />
+</Buttons>
+`;
+
+exports[`Buttons should render nothing 1`] = `""`;

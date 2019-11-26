@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render a valid checkbox field 1`] = `
+<Wrapper>
+  <Label>
+    <HiddenInput
+      id="checkbox-field"
+      name="checkbox-field"
+      onChange={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+    <Description>
+      <CustomCheckbox />
+      <Content
+        options={
+          Object {
+            "id": "checkbox-field",
+            "label": "Field label",
+            "type": "checkbox",
+          }
+        }
+      />
+    </Description>
+  </Label>
+</Wrapper>
+`;

@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab should render a link tab 1`] = `
+<StyledTab
+  id="test-link"
+  isActive={false}
+  onClick={[Function]}
+  role="button"
+>
+  <Link
+    options={
+      Object {
+        "id": "test-link",
+        "label": "Link",
+        "to": "/",
+      }
+    }
+    shouldInherit={true}
+  />
+</StyledTab>
+`;
+
+exports[`Tab should render a text tab 1`] = `
+<StyledTab
+  id="test-text"
+  isActive={false}
+  onClick={[Function]}
+  role="button"
+>
+  <Button
+    options={
+      Object {
+        "id": "test-text",
+        "label": "Test",
+        "type": "button",
+      }
+    }
+    shouldInherit={true}
+  />
+</StyledTab>
+`;
+
+exports[`Tab should render an icon tab 1`] = `
+<StyledTab
+  id="test-icon"
+  isActive={false}
+  onClick={[Function]}
+  role="button"
+>
+  <Button
+    options={
+      Object {
+        "icon": "plus",
+        "id": "test-icon",
+        "type": "button",
+      }
+    }
+    shouldInherit={true}
+  />
+</StyledTab>
+`;
+
+exports[`Tabs should render 2 tabs 1`] = `
+<Wrapper>
+  <StyledTabs
+    minWidth={0}
+  >
+    <Tab
+      handleClick={[Function]}
+      isActive={true}
+      key="test-text"
+      options={
+        Object {
+          "id": "test-text",
+          "label": "Test",
+        }
+      }
+      reference={
+        Object {
+          "current": null,
+        }
+      }
+    />
+    <Tab
+      handleClick={[Function]}
+      isActive={false}
+      key="test-icon"
+      options={
+        Object {
+          "icon": "plus",
+          "id": "test-icon",
+        }
+      }
+      reference={
+        Object {
+          "current": null,
+        }
+      }
+    />
+  </StyledTabs>
+</Wrapper>
+`;
+
+exports[`Tabs should render nothing 1`] = `""`;

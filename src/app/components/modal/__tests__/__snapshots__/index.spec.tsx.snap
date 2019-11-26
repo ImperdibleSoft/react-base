@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render a closed modal 1`] = `""`;
+
+exports[`Modal should render an open modal 1`] = `
+<Portal
+  containerInfo={
+    <div
+      id="modal-root"
+    />
+  }
+>
+  <GlobalStyleComponent />
+  <Backdrop
+    onClick={[Function]}
+  />
+  <Wrapper>
+    <p>
+      Test children
+    </p>
+  </Wrapper>
+</Portal>
+`;

@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field should render a valid button field 1`] = `
+<span
+  key="button-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="button-field"
+    name="button-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid checkbox field 1`] = `
+<span
+  key="checkbox-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="checkbox-field"
+    name="checkbox-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid date field 1`] = `
+<span
+  key="date-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="date-field"
+    name="date-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid dropdown field 1`] = `
+<span
+  key="dropdown-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="dropdown-field"
+    name="dropdown-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid password field 1`] = `
+<span
+  key="password-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="password-field"
+    name="password-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid submit field 1`] = `
+<span
+  key="submit-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="submit-field"
+    name="submit-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid switch field 1`] = `
+<span
+  key="switch-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="switch-field"
+    name="switch-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid text field 1`] = `
+<span
+  key="text-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="text-field"
+    name="text-field"
+    render={[Function]}
+  />
+</span>
+`;
+
+exports[`Field should render a valid textarea field 1`] = `
+<span
+  key="textarea-field"
+  style={
+    Object {
+      "display": "block",
+      "maxWidth": undefined,
+      "verticalAlign": "top",
+    }
+  }
+>
+  <FormikConnect(FieldInner)
+    id="textarea-field"
+    name="textarea-field"
+    render={[Function]}
+  />
+</span>
+`;

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar with no valid picture should render correctly a company placeholder 1`] = `
+<Avatar
+  avatarBorder={7.5}
+  avatarFontSize={36.00000576000092}
+  avatarIconSize={42.000100800241924}
+  avatarSize={75}
+  isEmpty={true}
+  isExpandable={false}
+>
+  <i
+    className="fa fa-globe"
+  />
+</Avatar>
+`;
+
+exports[`Avatar with no valid picture should render correctly a user placeholder 1`] = `
+<Avatar
+  avatarBorder={7.5}
+  avatarFontSize={36.00000576000092}
+  avatarIconSize={42.000100800241924}
+  avatarSize={75}
+  isEmpty={true}
+  isExpandable={false}
+>
+  <i
+    className="fa fa-user"
+  />
+</Avatar>
+`;
+
+exports[`Avatar with valid picture should render correctly a company Avatar 1`] = `
+<Avatar
+  avatarBorder={7.5}
+  avatarFontSize={36.00000576000092}
+  avatarIconSize={42.000100800241924}
+  avatarSize={75}
+  isEmpty={false}
+  isExpandable={false}
+>
+  <AvatarPicture
+    src="my-picture"
+  />
+</Avatar>
+`;
+
+exports[`Avatar with valid picture should render correctly a user Avatar 1`] = `
+<Avatar
+  avatarBorder={7.5}
+  avatarFontSize={36.00000576000092}
+  avatarIconSize={42.000100800241924}
+  avatarSize={75}
+  isEmpty={false}
+  isExpandable={false}
+>
+  <AvatarPicture
+    src="my-picture"
+  />
+</Avatar>
+`;

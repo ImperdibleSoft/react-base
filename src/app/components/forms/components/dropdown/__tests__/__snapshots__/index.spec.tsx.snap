@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render a valid dropdown field 1`] = `
+<Wrapper>
+  <Description>
+    <Label
+      htmlFor="dropdown-field"
+    >
+      <Content
+        options={
+          Object {
+            "id": "dropdown-field",
+            "label": "Field label",
+            "options": Array [
+              Object {
+                "id": "option-1",
+                "label": "Option 1",
+                "type": "Option",
+                "value": "1",
+              },
+            ],
+            "type": "dropdown",
+          }
+        }
+      />
+    </Label>
+  </Description>
+  <StateManager
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={
+      Object {
+        "id": "option-1",
+        "label": "Option 1",
+        "type": "Option",
+        "value": "1",
+      }
+    }
+    id="dropdown-field"
+    isSearchable={true}
+    name="dropdown-field"
+    onChange={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    options={
+      Array [
+        Object {
+          "id": "option-1",
+          "label": "Option 1",
+          "type": "Option",
+          "value": "1",
+        },
+      ]
+    }
+    styles={
+      Object {
+        "control": [Function],
+        "menu": [Function],
+        "option": [Function],
+        "singleValue": [Function],
+      }
+    }
+  />
+</Wrapper>
+`;

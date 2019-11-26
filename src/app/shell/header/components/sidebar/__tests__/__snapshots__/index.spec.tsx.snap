@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should render a valid closed sidebar 1`] = `
+<Wrapper>
+  <Toggler
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-bars"
+    />
+  </Toggler>
+</Wrapper>
+`;
+
+exports[`Sidebar should render a valid open sidebar 1`] = `
+<Wrapper>
+  <Toggler
+    onClick={[Function]}
+  >
+    <i
+      className="fa fa-bars"
+    />
+  </Toggler>
+</Wrapper>
+`;

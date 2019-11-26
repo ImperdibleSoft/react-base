@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading indicator should render a valid loading online component 1`] = `
+<Fragment>
+  <Wrapper
+    fixedSidebar={false}
+    isLoading={true}
+  >
+    <SubLine
+      effect="increase"
+      isLoading={true}
+    />
+    <SubLine
+      effect="decrease"
+      isLoading={true}
+    />
+  </Wrapper>
+  <LineSpacer
+    isLoading={true}
+  />
+</Fragment>
+`;
+
+exports[`Loading indicator should render a valid online component 1`] = `
+<Fragment>
+  <Wrapper
+    fixedSidebar={false}
+    isLoading={false}
+  >
+    <SubLine
+      effect="increase"
+      isLoading={false}
+    />
+    <SubLine
+      effect="decrease"
+      isLoading={false}
+    />
+  </Wrapper>
+  <LineSpacer
+    isLoading={false}
+  />
+</Fragment>
+`;

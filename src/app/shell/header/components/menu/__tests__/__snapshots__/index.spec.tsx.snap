@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should render a valid closed menu 1`] = `
+<Wrapper
+  isRight={true}
+  onClick={[Function]}
+>
+  <Toggler>
+    <Content
+      options={
+        Object {
+          "iconLast": true,
+          "label": "test",
+        }
+      }
+    />
+  </Toggler>
+</Wrapper>
+`;
+
+exports[`Menu should render a valid open menu 1`] = `
+<Wrapper
+  isRight={true}
+  onClick={[Function]}
+>
+  <Toggler>
+    <Content
+      options={
+        Object {
+          "iconLast": true,
+          "label": "test",
+        }
+      }
+    />
+  </Toggler>
+</Wrapper>
+`;
+
+exports[`Menu should render a valid open menu with icon 1`] = `
+<Wrapper
+  isRight={true}
+  onClick={[Function]}
+>
+  <Toggler>
+    <Content
+      options={
+        Object {
+          "icon": "test",
+          "iconLast": true,
+          "label": "test",
+        }
+      }
+    />
+  </Toggler>
+</Wrapper>
+`;

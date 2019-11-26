@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content should render a text 1`] = `
+<Fragment>
+  <Label>
+    Add
+  </Label>
+</Fragment>
+`;
+
+exports[`Content should render a text and a text-icon 1`] = `
+<Fragment>
+  <Label>
+    Add
+  </Label>
+  <Space />
+  <i
+    className="fa fa-plus"
+  />
+</Fragment>
+`;
+
+exports[`Content should render a text and an icon 1`] = `
+<Fragment>
+  <Label>
+    Add
+  </Label>
+  <Space />
+  <img
+    src="plus"
+  />
+</Fragment>
+`;
+
+exports[`Content should render a text-icon 1`] = `
+<Fragment>
+  <i
+    className="fa fa-plus"
+  />
+</Fragment>
+`;
+
+exports[`Content should render a text-icon and a text 1`] = `
+<Fragment>
+  <i
+    className="fa fa-plus"
+  />
+  <Space />
+  <Label>
+    Add
+  </Label>
+</Fragment>
+`;
+
+exports[`Content should render an icon 1`] = `
+<Fragment>
+  <img
+    src="plus"
+  />
+</Fragment>
+`;
+
+exports[`Content should render an icon and a text 1`] = `
+<Fragment>
+  <img
+    src="plus"
+  />
+  <Space />
+  <Label>
+    Add
+  </Label>
+</Fragment>
+`;
