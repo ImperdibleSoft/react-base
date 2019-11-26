@@ -7,7 +7,7 @@ import { INTERACTIONS } from '../../../common/constants/analytics';
 import { noMenu } from './models';
 import { HeaderMenu } from './types';
 
-const logo = require('../../../images/logo.png');
+const logo = require('../../../images/logo.png').default;
 
 const Header: React.FC = () => {
   const [openMenu, setOpenMenu] = React.useState(noMenu);

@@ -45,7 +45,10 @@ describe('Collections utils', () => {
     it('should replace an element from the collection', () => {
       const output = updateCollection(initialState.collection, [{ id: '2', name: 'Mike' }]);
 
-      expect(output).toStrictEqual([{ id: '1', name: 'Peter' }, { id: '2', name: 'Mike' }]);
+      expect(output).toStrictEqual([
+        { id: '1', name: 'Peter' },
+        { id: '2', name: 'Mike' },
+      ]);
     });
   });
 
@@ -59,7 +62,10 @@ describe('Collections utils', () => {
     it('should sort a collection', () => {
       const output = sortCollection(initialState.collection, 'name', 'asc');
 
-      expect(output).toStrictEqual([{ id: '2', name: 'Joseph' }, { id: '1', name: 'Peter' }]);
+      expect(output).toStrictEqual([
+        { id: '2', name: 'Joseph' },
+        { id: '1', name: 'Peter' },
+      ]);
     });
   });
 

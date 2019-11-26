@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { useSelector } from 'react-redux';
-import useReactRouter from 'use-react-router';
+import { useHistory, useLocation } from 'react-router-dom';
 import analyticsApi from '../common/apis/reports/analytics';
 import { setLastSession, setStore } from '../common/utils/idb';
 import registerServiceWorker from './utils/service-worker';
@@ -22,7 +22,8 @@ interface OwnProps {
 }
 
 const AppWrapper: React.FC<OwnProps> = ({ lastRoute }: OwnProps) => {
-  const { history, location } = useReactRouter();
+  const history = useHistory();
+  const location = useLocation();
 
   const store = useSelector(getAppStore);
 
