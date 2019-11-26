@@ -35,7 +35,6 @@ exports[`Page should render a page 1`] = `
       "styledComponentId": "page__Page-sc-2ndwjn-0",
       "target": "div",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -79,7 +78,6 @@ exports[`Page should render a page with max-with 1`] = `
       "styledComponentId": "page__Page-sc-2ndwjn-0",
       "target": "div",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -111,7 +109,6 @@ exports[`PageH1 should render properly 1`] = `
       "styledComponentId": "page__PageH1-sc-2ndwjn-3",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -144,7 +141,6 @@ exports[`PageH2 should render properly 1`] = `
       "styledComponentId": "page__PageH2-sc-2ndwjn-4",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -177,7 +173,6 @@ exports[`PageH3 should render properly 1`] = `
       "styledComponentId": "page__PageH3-sc-2ndwjn-5",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -210,7 +205,6 @@ exports[`PageH4 should render properly 1`] = `
       "styledComponentId": "page__PageH4-sc-2ndwjn-6",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -240,7 +234,6 @@ exports[`PageHeading should render properly 1`] = `
       "styledComponentId": "page__PageHeading-sc-2ndwjn-1",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
@@ -274,7 +267,6 @@ exports[`PageTitle should render properly 1`] = `
       "styledComponentId": "page__PageTitle-sc-2ndwjn-2",
       "target": "h1",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

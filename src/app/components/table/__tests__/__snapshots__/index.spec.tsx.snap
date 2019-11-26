@@ -19,7 +19,6 @@ exports[`Table should render the complete set of table components 1`] = `
       "styledComponentId": "styles__Table-sc-1qcs71b-0",
       "target": "table",
       "toString": [Function],
-      "usesTheme": false,
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
